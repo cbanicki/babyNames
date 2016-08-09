@@ -1,0 +1,9 @@
+name: shinyapp
+account: platothewise
+server: shinyapps.io
+appId: 118677
+bundleId: 527133
+url: https://platothewise.shinyapps.io/shinyapp/
+when: 1470697559.36845
+asMultiple: FALSE
+asStatic: FALSE
