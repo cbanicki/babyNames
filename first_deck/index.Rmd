@@ -23,6 +23,7 @@ library('slidify', 'ramnathv')
 library('slidifyLibraries', 'ramnathv')
 library(dplyr)
 library(ggplot2)
+library(ggthemes)
 ```
 
 
@@ -85,8 +86,8 @@ topAll <- read.csv("http://frogonablog.com/topAll.csv", header = TRUE,na.strings
 
 #topAll <- topAll[ , !(names(topAll) %in% 'Gender')]
 
-library(ggplot2)
-library(ggthemes)
+# library(ggplot2)
+# library(ggthemes)
 qplot(Year, Count, data=topAll, color=Name, shape=Gender,
       xlab="Year", ylab="Count") +
       ggtitle("The top 10 Names over time") +
